@@ -1,0 +1,58 @@
+html{
+    font-family: system-ui;
+}
+
+.weather-container{
+    height: 15%;
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    div{
+        transform:translateY(-0.5rem);
+    }
+
+}
+
+body{
+    padding: 0;
+    margin : 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.bottom{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    width: 60%;
+
+}
+.bottom>:first-child{
+    flex: 2;
+}
+
+.bottom:last-child{
+    flex: 1;
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 2rem;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
