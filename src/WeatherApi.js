@@ -1,4 +1,4 @@
-const baseApiUrl = "http://api.weatherapi.com/v1"
+const baseApiUrl = "https://api.weatherapi.com/v1"
 const headers = new Headers();
 headers.append("key", "95a6e339f8f84db5bec110412240307");
 headers.append("Content-Type", "charset=utf-8")
